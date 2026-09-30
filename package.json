@@ -1,0 +1,36 @@
+{
+  "name": "twitchbotsimples",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/RaissonGitHub/twitchbotsimples#readme",
+  "bugs": {
+    "url": "https://github.com/RaissonGitHub/twitchbotsimples/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaissonGitHub/twitchbotsimples.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "start": "node api/index.ts",
+    "dev": "node --watch api/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "ollama": "^0.6.4",
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^24.19.0",
+    "@types/tmi.js": "^1.8.6",
+    "typescript": "^5.9.3"
+  }
+}
