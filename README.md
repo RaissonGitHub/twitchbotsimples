@@ -19,7 +19,7 @@ Copie `.env.example` para `.env` e preencha:
 | `OLLAMA_MODEL`   | Modelo do Ollama                                       |
 | `DB_PATH`        | Caminho do banco SQLite                                |
 
-O token sai de https://twitch.tv/irc. As cinco variáveis são obrigatórias: o bot não sobe sem elas.
+ As cinco variáveis são obrigatórias: o bot não sobe sem elas.
 
 Detalhes que economizam tempo:
 
